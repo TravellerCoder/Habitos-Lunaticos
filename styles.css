@@ -58,32 +58,33 @@ body {
 .answer{
     font-size: 25px;
     text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 3px;
 }
 
 .wrapper-find{
-    display: block;
+    display: flex;
     flex-direction: column;
     margin-top: 35px;
     align-items: center;
-    justify-items: center;
-    position: relative;
+    justify-content: center;
 }
 
 .answer-find{
-    position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px;
-    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
 }
 
 .individuality{
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
+    border: 5px solid rgba(241, 63, 63, 0.932);
     margin: 10px;
     border-radius: 5px;
     width: 450px;
+    text-align: center;
+    align-items: center;
 }
 
 .individuality i{
@@ -91,3 +92,21 @@ body {
     position: relative;
     margin: auto;
 }
+
+.individuality p{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.find-closure{
+    font-size: 35px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 55px;
+    text-align: center;
+}
+
