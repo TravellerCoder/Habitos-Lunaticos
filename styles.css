@@ -33,8 +33,13 @@ body {
     color: antiquewhite;
     font-size: 35px;
     border-radius:5px;
+    transition: all .8 ease;
 }
 
+.shift:hover {
+    border: 2px solid white;
+    color: black;
+}
 
 /*  SECCION TITULADA ¿PORQUE ESTE PROGRAMA ES PARA VOS?*/
 
