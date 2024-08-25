@@ -1,10 +1,10 @@
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Moderustic", sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgba(241, 216, 216, 0.932);
+    background-color: rgb(211, 210, 210);
 }
 
 .desarrollo {
@@ -26,7 +26,7 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
+/* todo: investigar boton focus*/
 .shift{
     background-color: rgba(241, 63, 63, 0.932);
     margin-top: 25px;
@@ -34,6 +34,10 @@ body {
     font-size: 35px;
     border-radius:5px;
 }
+
+
+/*  SECCION TITULADA ¿PORQUE ESTE PROGRAMA ES PARA VOS?*/
+
 
 .wrapper {
     display: block;
@@ -62,6 +66,8 @@ body {
     letter-spacing: 3px;
 }
 
+/* SECCION TITULADA ¿QUE VAS A ENCONTRAR EN ESTE CURSO?*/
+
 .wrapper-find{
     display: flex;
     flex-direction: column;
@@ -81,8 +87,8 @@ body {
     flex-direction: row;
     border: 5px solid rgba(241, 63, 63, 0.932);
     margin: 10px;
-    border-radius: 5px;
-    width: 450px;
+    border-radius: 15px;
+    width: 650px;
     text-align: center;
     align-items: center;
 }
@@ -90,12 +96,18 @@ body {
 .individuality i{
     font-size: 55px;
     position: relative;
-    margin: auto;
+    margin: 10px;
+}
+
+.individuality-desc{
+    margin: 10px;
+
 }
 
 .individuality p{
     font-size: 15px;
-    margin: 10px;
+    text-align: center;
+    position: relative;
 }
 
 .find-closure{
@@ -103,6 +115,8 @@ body {
     word-spacing: 3px;
     letter-spacing: 2px;
 }
+
+/* SECCION TITULADA PROGRAMA DE ENTRENAMIENTO */
 
 h2 {
     font-size: 35px;
