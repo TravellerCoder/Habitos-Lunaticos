@@ -168,3 +168,38 @@ body {
 }
 
 /* SECCION TITULADA PRECIO */
+
+.wrapper-valor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.wrapper-valor h3{
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.valor {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90vw;
+
+}
+
+.pagos {
+    border: 3px solid  rgba(241, 63, 63, 0.932);
+    border-radius: 5px;
+    align-content: center;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
