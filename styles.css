@@ -26,7 +26,7 @@ body {
     align-items: center;
     flex-direction: column;
 }
-/* todo: investigar boton focus*/
+
 .shift{
     background-color: rgba(241, 63, 63, 0.932);
     margin-top: 25px;
@@ -191,15 +191,41 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 90vw;
-
 }
 
 .pagos {
-    border: 3px solid  rgba(241, 63, 63, 0.932);
-    border-radius: 5px;
+    border: 5px solid  rgba(241, 63, 63, 0.932);
+    border-radius: 15px;
     align-content: center;
     text-align: center;
     width: 300px;
     height: 250px;
     margin: auto;
 }
+
+/*  AQUI ARRANCA LA SECCION CONTACTO */
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+
+.contact i{
+    font-size: 55px;
+    margin: 0 45px 45px 0;
+}
+
+/*  AQUI ARRANCA LA SECCION FOOTER */
+
+.footer {
+    display: flex;
+    text-align: center;
+}
+
