@@ -11,7 +11,7 @@ body {
     background-color: rgba(241, 63, 63, 0.932);
     border-radius: 5px;
     margin: auto;
-    width: 100%;
+    width: 100vw;
 }  
 
 .desarrollo p{
@@ -25,6 +25,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.video-container iframe{
+    width: 800px;
+    height: 500px;
 }
 
 .shift{
@@ -56,7 +61,7 @@ body {
 .sections-headers{
     background-color: black;
     border-radius: 5px;
-    width: 100%;
+    width: 90vw;
 }
 
 .headers-p{
@@ -229,3 +234,69 @@ body {
     text-align: center;
 }
 
+@media (max-width:768px){
+
+    .desarrollo{
+        width: 90vw;
+        margin: 0;
+    }
+
+    .video-container iframe{
+        width: 500px;
+        height: 315px;
+    }
+
+    .headers-p{
+        font-size: 25px;
+    }
+
+    .shift{
+        font-size: 25px;
+    }
+
+    .answer{
+        width: 90vw;
+    }
+
+    .answer-find{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .individuality{
+        width: 75%;
+    }
+
+    .find-closure{
+        font-size: 25px;
+    }
+
+    .rutines{
+        width: 75%;
+    }
+
+    .videos-examples{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .examples{
+        width: 75%;
+    }
+}
+
+@media (max-width:455px){
+
+    .desarrollo{
+        font-size: 15px;
+
+    }
+
+    .video-container iframe{
+        width: 300px;
+        height: 175px;
+    }
+}
