@@ -41,11 +41,6 @@ body {
     transition: all .8 ease;
 }
 
-.shift:hover {
-    border: 2px solid white;
-    color: black;
-    box-shadow: 5px 5px black;
-}
 
 /*  SECCION TITULADA ¿PORQUE ESTE PROGRAMA ES PARA VOS?*/
 
@@ -121,10 +116,14 @@ body {
     position: relative;
 }
 
-.find-closure{
-    font-size: 35px;
-    word-spacing: 3px;
-    letter-spacing: 2px;
+.individuality2{
+    display: flex;
+    text-align: center;
+}
+
+.individuality2 .shift{
+    margin: auto;
+    text-align: center;
 }
 
 /* SECCION TITULADA PROGRAMA DE ENTRENAMIENTO */
