@@ -174,10 +174,18 @@ body {
 
 /*  AQUI ARRANCA LA SECCION FOOTER */
 
-.footer {
+footer a{
     display: flex;
     text-align: center;
+    font-family: "Inconsolata", monospace;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
+
+
+
+
 
 @media (max-width:768px){
 
