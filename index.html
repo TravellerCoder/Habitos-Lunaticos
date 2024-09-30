@@ -18,7 +18,7 @@
                 <iframe src="https://www.youtube.com/embed/SDh5nPCmQV4?si=SakhtgmcHd8RhJzI" title="YouTube video player"
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <button class="shift" ><a href="#contacto"></a> QUIERO UNIRME AL PROGRAMA</button>
+                <button class="shift" ><a href="#contact"> Quiero unirme al programa</a></button>
             </div>
 
 
@@ -137,7 +137,7 @@
                     </div>
                     </div>
                     <div class="individuality2">
-                        <button class="shift" ><a href="#contacto"></a> QUIERO UNIRME AL PROGRAMA</button>
+                        <button class="shift" ><a href="#contact"> Quiero unirme al programa</a></button>
                     </div>
                 </div>
 
@@ -145,7 +145,7 @@
                     <h3>Que camino queres tomar? </h3>
                     <p>Tomar accion y tener una llamada estrategica conmigo
                         para conocer como te puedo ayudar!</p>
-                 </div>
+                </div>
                 
             </div>
 
@@ -188,6 +188,34 @@
 
 
 <!-- AQUI ARRANCA LA SECCION CONTACTO-->
+
+        
+            <div class="sections-headers" id="contacto">
+                <p class="headers-p">Contactame para coordinar una entrevista</p>
+            </div>
+            <section id="contact">
+
+            <form id="contact-form" action="enviar.php" method="post">
+                
+                <label for="name">Nombre y apellido</label>
+                <input type="text" name="name" id="name" minlength="3" required autocomplete="off">
+                <div class="error" id="errorName"></div>
+                <br>
+                
+
+                <label for="email">Mail</label>
+                <input type="email" name="email" id="email" minlength="3" required autocomplete="off">
+                <div class="error" id="errorEmail"></div>
+                <br>
+
+                <label for="number">Numero de celular</label>
+                <input type="text" name="number" id="number" minlength="3" required autocomplete="off">
+                <div class="error" id="errorNumber"></div>
+                <br>
+
+                <button type='submit' class="shift" ><a href="#contact"> Contactarme</a></button>
+            </form>
+        </section>
 
 
         <div class="contact">
