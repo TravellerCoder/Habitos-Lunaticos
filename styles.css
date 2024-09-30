@@ -7,19 +7,6 @@ body {
     background-color: rgb(211, 210, 210);
 }
 
-.desarrollo {
-    background-color: rgba(241, 63, 63, 0.932);
-    border-radius: 5px;
-    margin: auto;
-    width: 100vw;
-}  
-
-.desarrollo p{
-    color: antiquewhite;
-    font-size: 25px ;
-    text-align: center;
-}
-
 .video-container {
     display: flex;
     justify-content: center;
