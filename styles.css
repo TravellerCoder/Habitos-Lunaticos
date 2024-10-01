@@ -52,7 +52,7 @@ body {
 .sections-headers{
     background-color: black;
     border-radius: 5px;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 
@@ -91,7 +91,7 @@ body {
     border: 5px solid rgba(241, 63, 63, 0.932);
     margin: 10px;
     border-radius: 15px;
-    width: 650px;
+    width: 750px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -99,7 +99,7 @@ body {
 }
 
 .individuality i{
-    font-size: 55px;
+    font-size: 45px;
     position: relative;
     margin: 10px;
 }
@@ -236,9 +236,6 @@ footer a{
 }
 
 
-
-
-
 @media (max-width:768px){
 
     .desarrollo{
@@ -303,5 +300,17 @@ footer a{
     .video-container iframe{
         width: 300px;
         height: 175px;
+    }
+
+    #contact-form{
+        width: 90%;
+    }
+
+    .contact{
+        text-align: center;
+    }
+
+    .contact i{
+        font-size: 35px;
     }
 }
