@@ -1,0 +1,323 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+    box-sizing: border-box;
+    color:#0f4055;
+}
+
+body {
+    background-color: #a6a6a6;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-container iframe{
+    width: 800px;
+    height: 500px;
+}
+
+.shift{
+    background-color: rgba(241, 63, 63, 0.932);
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius:8px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+
+.shift a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+/*  SECCION TITULADA ¿PORQUE ESTE PROGRAMA ES PARA VOS?*/
+
+
+.wrapper {
+    display: block;
+    flex-direction: column;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections-headers{
+    background-color: black;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.headers-p{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.answer{
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+/* SECCION TITULADA ¿QUE VAS A ENCONTRAR EN ESTE CURSO?*/
+
+.wrapper-find{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer-find{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.individuality{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid rgba(241, 63, 63, 0.932);
+    margin: 10px;
+    border-radius: 15px;
+    width: 750px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.individuality i{
+    font-size: 45px;
+    position: relative;
+    margin: 10px;
+}
+
+.individuality-desc{
+    margin: 10px;
+
+}
+
+.individuality p{
+    display: none;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.individuality2{
+    display: flex;
+    text-align: center;
+}
+
+.individuality2 .shift{
+    margin: auto;
+    text-align: center;
+}
+
+.find-closure h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #319f02;
+}
+
+.find-closure p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*  AQUI ARRANCA LA SECCION PREGUNTAS FRECUENTES */
+
+.wrapper-questions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+.wrapper-questions h3{
+    font-size: 30px;
+    text-align: start;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.wrapper-questions p{
+    font-size: 20px;
+    text-align: start;
+    word-spacing: 3px;
+    margin-top: 5px;
+}
+
+
+/*  AQUI ARRANCA LA SECCION CONTACTO */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 35px;
+    width: 35%;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+input{
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    border: none;
+    box-sizing: border-box;
+    width: 25%;
+}
+
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+select{
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact i{
+    font-size: 55px;
+    margin: 0 45px 45px 0;
+    color: #319f02;
+}
+
+/*  AQUI ARRANCA LA SECCION FOOTER */
+
+footer a{
+    display: flex;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    text-decoration: none;
+    color: #0f4055;
+    cursor: pointer;
+}
+
+
+@media (max-width:998px){
+
+    .desarrollo{
+        width: 90vw;
+        margin: 0;
+    }
+
+    .video-container iframe{
+        width: 500px;
+        height: 315px;
+    }
+
+    .sections-headers{
+        width: 90dvw;
+        text-align: center;
+    }
+
+    .answer{
+        font-size: 20px;
+        width: 85dvw;
+    }
+
+    .headers-p{
+        font-size: 25px;
+    }
+
+    .shift{
+        font-size: 25px;
+    }
+
+    .wrapper-find{
+        width: 90dvw;
+    }
+
+
+    .answer-find{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .individuality{
+        width: 75%;
+    }
+
+    .individuality2{
+        margin-top: 30px;
+    }
+
+    .find-closure{
+        font-size: 25px;
+        margin-top: 45px;
+    }
+
+    .wrapper-questions{
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+        text-align: start;
+    }   
+}
+
+@media (max-width:600px){
+
+    .desarrollo{
+        font-size: 15px;
+
+    }
+
+    .video-container iframe{
+        width: 300px;
+        height: 175px;
+    }
+
+    #contact-form{
+        width: 90%;
+    }
+
+
+
+    .contact i{
+        font-size: 35px;
+    }
+}
