@@ -17,9 +17,9 @@ body {
     flex-direction: column;
 }
 
-.video-container iframe{
-    width: 800px;
-    height: 500px;
+.video-hero{
+    width: 50vw;
+    border-radius: 5px;
 }
 
 .shift{
