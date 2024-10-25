@@ -1,10 +1,11 @@
 * {
-    font-family: "Moderustic", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     box-sizing: border-box;
+    color:#0f4055;
 }
 
 body {
-    background-color: rgb(211, 210, 210);
+    background-color: #a6a6a6;
     overflow-x: hidden;
     box-sizing: border-box;
 }
@@ -24,7 +25,6 @@ body {
 .shift{
     background-color: rgba(241, 63, 63, 0.932);
     margin-top: 25px;
-    color: antiquewhite;
     font-size: 20px;
     border-radius:8px;
     cursor: pointer;
@@ -34,7 +34,8 @@ body {
 
 .shift a{
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
+    font-weight: 600;
 }
 
 
@@ -57,7 +58,7 @@ body {
 }
 
 .headers-p{
-    color: antiquewhite;
+    color: white;
     font-size: 35px;
     text-align: center;
 }
@@ -130,6 +131,7 @@ body {
     font-size: 25px;
     text-align: center;
     font-weight: 700;
+    color: #319f02;
 }
 
 .find-closure p{
@@ -306,9 +308,7 @@ footer a{
         width: 90%;
     }
 
-    .contact{
-        text-align: center;
-    }
+
 
     .contact i{
         font-size: 35px;
