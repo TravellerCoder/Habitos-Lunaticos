@@ -147,19 +147,21 @@ body {
     flex-direction: column;
     margin-top: 35px;
     align-items: start;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .wrapper-questions h3{
     font-size: 30px;
-    text-align: center;
+    text-align: start;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .wrapper-questions p{
-    font-size: 25px;
-    text-align: center;
+    font-size: 20px;
+    text-align: start;
     word-spacing: 3px;
+    margin-top: 5px;
 }
 
 
@@ -182,15 +184,11 @@ body {
     width: 35%;
 }
 
-
-
 label{
     display: block;
     margin-bottom: 5px;
     font-size: 20px;
-
 }
-
 
 input{
     padding: 7px;
@@ -218,12 +216,12 @@ select{
 
 .contact a{
     text-decoration: none;
-    color: rgb(61, 61, 61);
 }
 
 .contact i{
     font-size: 55px;
     margin: 0 45px 45px 0;
+    color: #319f02;
 }
 
 /*  AQUI ARRANCA LA SECCION FOOTER */
@@ -238,7 +236,7 @@ footer a{
 }
 
 
-@media (max-width:768px){
+@media (max-width:998px){
 
     .desarrollo{
         width: 90vw;
@@ -250,6 +248,16 @@ footer a{
         height: 315px;
     }
 
+    .sections-headers{
+        width: 90dvw;
+        text-align: center;
+    }
+
+    .answer{
+        font-size: 20px;
+        width: 85dvw;
+    }
+
     .headers-p{
         font-size: 25px;
     }
@@ -258,9 +266,10 @@ footer a{
         font-size: 25px;
     }
 
-    .answer{
-        width: 90vw;
+    .wrapper-find{
+        width: 90dvw;
     }
+
 
     .answer-find{
         display: flex;
@@ -273,26 +282,24 @@ footer a{
         width: 75%;
     }
 
+    .individuality2{
+        margin-top: 30px;
+    }
+
     .find-closure{
         font-size: 25px;
+        margin-top: 45px;
     }
 
-    .rutines{
-        width: 75%;
-    }
-
-    .videos-examples{
+    .wrapper-questions{
+        width: 90vw;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .examples{
-        width: 75%;
-    }
+        justify-content: flex-start;
+        text-align: start;
+    }   
 }
 
-@media (max-width:455px){
+@media (max-width:600px){
 
     .desarrollo{
         font-size: 15px;
