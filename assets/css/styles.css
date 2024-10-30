@@ -10,6 +10,30 @@ body {
     box-sizing: border-box;
 }
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.sections-headers-hero{
+    background-color: #ff5757;
+    border-radius: 5px;
+    width: 85dvw;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.headers-p-hero{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
 .video-container {
     display: flex;
     justify-content: center;
@@ -23,7 +47,7 @@ body {
 }
 
 .shift{
-    background-color: rgba(241, 63, 63, 0.932);
+    background-color: #ff5757;
     margin-top: 25px;
     font-size: 20px;
     border-radius:8px;
@@ -89,7 +113,7 @@ body {
 .individuality{
     display: flex;
     flex-direction: row;
-    border: 5px solid rgba(241, 63, 63, 0.932);
+    border: 5px solid#ff5757;
     margin: 10px;
     border-radius: 15px;
     width: 750px;
