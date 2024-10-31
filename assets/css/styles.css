@@ -88,10 +88,18 @@ body {
 }
 
 .answer{
-    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    width: 90vw;
+    margin: auto;
+}
+
+.answer p{
     word-spacing: 3px;
-    letter-spacing: 3px;
+    letter-spacing: 0px;
+    font-size: 25px;
 }
 
 /* SECCION TITULADA ¿QUE VAS A ENCONTRAR EN ESTE CURSO?*/
@@ -116,7 +124,7 @@ body {
     border: 5px solid#ff5757;
     margin: 10px;
     border-radius: 15px;
-    width: 750px;
+    width: 40vw;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -144,18 +152,23 @@ body {
 .individuality2{
     display: flex;
     text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
 }
 
 .individuality2 .shift{
     margin: auto;
     text-align: center;
+    width: 40vw;
+    font-size: 25px;
 }
 
 .find-closure h3{
     font-size: 25px;
     text-align: center;
     font-weight: 700;
-    color: #319f02;
+    color: black;
 }
 
 .find-closure p{
@@ -205,7 +218,7 @@ body {
     text-align: center;
     justify-content: center;
     margin-top: 35px;
-    width: 35%;
+    width: 35vw;
 }
 
 label{
@@ -267,9 +280,13 @@ footer a{
         margin: 0;
     }
 
-    .video-container iframe{
-        width: 500px;
-        height: 315px;
+    .hero img{
+        width: 50dvw;
+    }
+
+    .video-hero{
+        width: 75vw;
+        border-radius: 5px;
     }
 
     .sections-headers{
@@ -320,20 +337,32 @@ footer a{
         display: flex;
         justify-content: flex-start;
         text-align: start;
-    }   
+    } 
+    
+    #contact-form{
+        width: 90%;
+    }
 }
 
 @media (max-width:600px){
 
     .desarrollo{
         font-size: 15px;
-
     }
 
-    .video-container iframe{
-        width: 300px;
-        height: 175px;
+    .hero img{
+        width: 100dvw;
     }
+
+    .sections-headers-hero{
+        font-size: 15px;
+    }
+
+    .video-hero{
+        width: 90dvw;
+        border-radius: 5px;
+    }
+    
 
     #contact-form{
         width: 90%;
