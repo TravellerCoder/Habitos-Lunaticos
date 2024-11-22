@@ -1,7 +1,7 @@
 <?php
-$nombre = $_POST['nombre'];
+$nombre = $_POST['name'];
 $email = $_POST['email'];
-$telefono = $_POST['telefono'];
+$telefono = $_POST['number'];
 
 $formcontent="
     Datos de Contacto: \n
@@ -12,11 +12,11 @@ $formcontent="
 
 $recipient = "guillermobukowski@gmail.com";
 
-$subject = "Consulta de formulario de $empresa";
+$subject = "Consulta de formulario de $nombre";
 
 $header = "From: $email \r\n";
 $header .= "Content-Type: text/plain; charset=UTF-8";
 mail($recipient, $subject, $formcontent, $header) or die("Error!");
-header("Location: form-ok.html");
+header("Location: formSend.html");
 
 ?>
