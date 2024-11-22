@@ -15,3 +15,5 @@ document.querySelectorAll('.individuality').forEach(individuality => {
         p.style.display = 'none';
     });
 });
+
+
