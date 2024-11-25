@@ -10,7 +10,7 @@ $formcontent="
     Telefono: $telefono \n
 ";
 
-$recipient = "guillermobukowski@gmail.com";
+$recipient = "contacto@habitoslunaticos.com";
 
 $subject = "Consulta de formulario de $nombre";
 
